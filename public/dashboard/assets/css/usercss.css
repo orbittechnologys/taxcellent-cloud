@@ -1,0 +1,786 @@
+.col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+    float: left;
+}
+.myaccount-content-details-wrap{float:left;width:100%;margin:0 0 50px 0;padding:0;position:relative}
+.myAccount-dashboard-block{width:100%;max-width:900px;margin:30px auto 0;padding:0}
+.myAccount-dashboard-block .col-md-4:nth-child(1) .myDashboard-box-block{border:1px solid #45d0a7}
+.myAccount-dashboard-block .col-md-4:nth-child(1) .myDashboard-box-block .myDashboard-icon-block i{color:#45d0a7}
+.myAccount-dashboard-block .col-md-4:nth-child(2) .myDashboard-box-block{border:1px solid #2da5f5}
+.myAccount-dashboard-block .col-md-4:nth-child(2) .myDashboard-box-block .myDashboard-icon-block i{color:#2da5f5}
+.myAccount-dashboard-block .col-md-4:nth-child(3) .myDashboard-box-block{border:1px solid #435b74}
+.myAccount-dashboard-block .col-md-4:nth-child(3) .myDashboard-box-block .myDashboard-icon-block i{color:#435b74}
+.myAccount-dashboard-block .col-md-4:nth-child(4) .myDashboard-box-block{border:1px solid #b05ed3}
+.myAccount-dashboard-block .col-md-4:nth-child(4) .myDashboard-box-block .myDashboard-icon-block i{color:#b05ed3}
+.myAccount-dashboard-block .col-md-4:nth-child(5) .myDashboard-box-block{border:1px solid #f1ca2a}
+.myAccount-dashboard-block .col-md-4:nth-child(5) .myDashboard-box-block .myDashboard-icon-block i{color:#f1ca2a}
+.myAccount-dashboard-block .col-md-4:nth-child(6) .myDashboard-box-block{border:1px solid #f39c11}
+.myAccount-dashboard-block .col-md-4:nth-child(6) .myDashboard-box-block .myDashboard-icon-block i{color:#f39c11}
+.myAccount-dashboard-block .col-md-4:nth-child(7) .myDashboard-box-block{border:1px solid #e33636}
+.myAccount-dashboard-block .col-md-4:nth-child(7) .myDashboard-box-block .myDashboard-icon-block i{color:#e33636}
+.myAccount-dashboard-block .col-md-4:nth-child(8) .myDashboard-box-block{border:1px solid #b05ed3}
+.myAccount-dashboard-block .col-md-4:nth-child(8) .myDashboard-box-block .myDashboard-icon-block i{color:#b05ed3}
+.myAccount-dashboard-block .col-md-4:nth-child(9) .myDashboard-box-block{border:1px solid #45d0a7}
+.myAccount-dashboard-block .col-md-4:nth-child(9) .myDashboard-box-block .myDashboard-icon-block i{color:#45d0a7}
+.myAccount-dashboard-block .col-md-4:nth-child(10) .myDashboard-box-block{border:1px solid #2da5f5}
+.myAccount-dashboard-block .col-md-4:nth-child(10) .myDashboard-box-block .myDashboard-icon-block i{color:#2da5f5}
+.myAccount-dashboard-block .col-md-4:nth-child(11) .myDashboard-box-block{border:1px solid #45d0a7}
+.myAccount-dashboard-block .col-md-4:nth-child(11) .myDashboard-box-block .myDashboard-icon-block i{color:#45d0a7}
+.myAccount-dashboard-block .col-md-4:nth-child(12) .myDashboard-box-block{border:1px solid #435b74}
+.myAccount-dashboard-block .col-md-4:nth-child(12) .myDashboard-box-block .myDashboard-icon-block i{color:#435b74}
+.myAccount-dashboard-block
+    .col-md-4:nth-child(3)
+    .myDashboard-box-block.Hov-icon:hover:after {
+    -webkit-animation: sonarEffect3 1.3s ease-out 75ms;
+    -moz-animation: sonarEffect3 1.3s ease-out 75ms;
+    animation: sonarEffect3 1.3s ease-out 75ms;
+}
+@-webkit-keyframes sonarEffect3 {
+    0% {
+        opacity: 0.3;
+    }
+    40% {
+        opacity: 0.5;
+        box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #435b74,
+            0 0 0 10px rgba(255, 255, 255, 0.5);
+    }
+    100% {
+        box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #435b74,
+            0 0 0 10px rgba(255, 255, 255, 0.5);
+        -webkit-transform: scale(1.5);
+        opacity: 0;
+    }
+}
+@-moz-keyframes sonarEffect3 {
+    0% {
+        opacity: 0.3;
+    }
+    40% {
+        opacity: 0.5;
+        box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #435b74,
+            0 0 0 10px rgba(255, 255, 255, 0.5);
+    }
+    100% {
+        box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #435b74,
+            0 0 0 10px rgba(255, 255, 255, 0.5);
+        -moz-transform: scale(1.5);
+        opacity: 0;
+    }
+}
+@keyframes sonarEffect3 {
+    0% {
+        opacity: 0.3;
+    }
+    40% {
+        opacity: 0.5;
+        box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #435b74,
+            0 0 0 10px rgba(255, 255, 255, 0.5);
+    }
+    100% {
+        box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #435b74,
+            0 0 0 10px rgba(255, 255, 255, 0.5);
+        transform: scale(1.5);
+        opacity: 0;
+    }
+}
+.myAccount-dashboard-block
+    .col-md-4:nth-child(4)
+    .myDashboard-box-block.Hov-icon:hover:after {
+    -webkit-animation: sonarEffect4 1.3s ease-out 75ms;
+    -moz-animation: sonarEffect4 1.3s ease-out 75ms;
+    animation: sonarEffect4 1.3s ease-out 75ms;
+}
+@-webkit-keyframes sonarEffect4 {
+    0% {
+        opacity: 0.3;
+    }
+    40% {
+        opacity: 0.5;
+        box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #b05ed3,
+            0 0 0 10px rgba(255, 255, 255, 0.5);
+    }
+    100% {
+        box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #b05ed3,
+            0 0 0 10px rgba(255, 255, 255, 0.5);
+        -webkit-transform: scale(1.5);
+        opacity: 0;
+    }
+}
+@-moz-keyframes sonarEffect4 {
+    0% {
+        opacity: 0.3;
+    }
+    40% {
+        opacity: 0.5;
+        box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #b05ed3,
+            0 0 0 10px rgba(255, 255, 255, 0.5);
+    }
+    100% {
+        box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #b05ed3,
+            0 0 0 10px rgba(255, 255, 255, 0.5);
+        -moz-transform: scale(1.5);
+        opacity: 0;
+    }
+}
+@keyframes sonarEffect4 {
+    0% {
+        opacity: 0.3;
+    }
+    40% {
+        opacity: 0.5;
+        box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #b05ed3,
+            0 0 0 10px rgba(255, 255, 255, 0.5);
+    }
+    100% {
+        box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #b05ed3,
+            0 0 0 10px rgba(255, 255, 255, 0.5);
+        transform: scale(1.5);
+        opacity: 0;
+    }
+}
+.myAccount-dashboard-block
+    .col-md-4:nth-child(5)
+    .myDashboard-box-block.Hov-icon:hover:after {
+    -webkit-animation: sonarEffect5 1.3s ease-out 75ms;
+    -moz-animation: sonarEffect5 1.3s ease-out 75ms;
+    animation: sonarEffect5 1.3s ease-out 75ms;
+}
+@-webkit-keyframes sonarEffect5 {
+    0% {
+        opacity: 0.3;
+    }
+    40% {
+        opacity: 0.5;
+        box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #f1ca2a,
+            0 0 0 10px rgba(255, 255, 255, 0.5);
+    }
+    100% {
+        box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #f39c11,
+            0 0 0 10px rgba(255, 255, 255, 0.5);
+        -webkit-transform: scale(1.5);
+        opacity: 0;
+    }
+}
+@-moz-keyframes sonarEffect5 {
+    0% {
+        opacity: 0.3;
+    }
+    40% {
+        opacity: 0.5;
+        box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #f1ca2a,
+            0 0 0 10px rgba(255, 255, 255, 0.5);
+    }
+    100% {
+        box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #f39c11,
+            0 0 0 10px rgba(255, 255, 255, 0.5);
+        -moz-transform: scale(1.5);
+        opacity: 0;
+    }
+}
+@keyframes sonarEffect5 {
+    0% {
+        opacity: 0.3;
+    }
+    40% {
+        opacity: 0.5;
+        box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #f39c11,
+            0 0 0 10px rgba(255, 255, 255, 0.5);
+    }
+    100% {
+        box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #f39c11,
+            0 0 0 10px rgba(255, 255, 255, 0.5);
+        transform: scale(1.5);
+        opacity: 0;
+    }
+}
+.myAccount-dashboard-block
+    .col-md-4:nth-child(6)
+    .myDashboard-box-block.Hov-icon:hover:after {
+    -webkit-animation: sonarEffect6 1.3s ease-out 75ms;
+    -moz-animation: sonarEffect6 1.3s ease-out 75ms;
+    animation: sonarEffect6 1.3s ease-out 75ms;
+}
+@-webkit-keyframes sonarEffect6 {
+    0% {
+        opacity: 0.3;
+    }
+    40% {
+        opacity: 0.5;
+        box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #f39c11,
+            0 0 0 10px rgba(255, 255, 255, 0.5);
+    }
+    100% {
+        box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #f39c11,
+            0 0 0 10px rgba(255, 255, 255, 0.5);
+        -webkit-transform: scale(1.5);
+        opacity: 0;
+    }
+}
+@-moz-keyframes sonarEffect6 {
+    0% {
+        opacity: 0.3;
+    }
+    40% {
+        opacity: 0.5;
+        box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #f39c11,
+            0 0 0 10px rgba(255, 255, 255, 0.5);
+    }
+    100% {
+        box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #f39c11,
+            0 0 0 10px rgba(255, 255, 255, 0.5);
+        -moz-transform: scale(1.5);
+        opacity: 0;
+    }
+}
+@keyframes sonarEffect6 {
+    0% {
+        opacity: 0.3;
+    }
+    40% {
+        opacity: 0.5;
+        box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #f39c11,
+            0 0 0 10px rgba(255, 255, 255, 0.5);
+    }
+    100% {
+        box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #f39c11,
+            0 0 0 10px rgba(255, 255, 255, 0.5);
+        transform: scale(1.5);
+        opacity: 0;
+    }
+}
+
+.myAccount-dashboard-block
+    .col-md-4:nth-child(7)
+    .myDashboard-box-block.Hov-icon:hover:after {
+    -webkit-animation: sonarEffect7 1.3s ease-out 75ms;
+    -moz-animation: sonarEffect7 1.3s ease-out 75ms;
+    animation: sonarEffect7 1.3s ease-out 75ms;
+}
+@-webkit-keyframes sonarEffect7 {
+    0% {
+        opacity: 0.3;
+    }
+    40% {
+        opacity: 0.5;
+        box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #e33636,
+            0 0 0 10px rgba(255, 255, 255, 0.5);
+    }
+    100% {
+        box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #e33636,
+            0 0 0 10px rgba(255, 255, 255, 0.5);
+        -webkit-transform: scale(1.5);
+        opacity: 0;
+    }
+}
+@-moz-keyframes sonarEffect7 {
+    0% {
+        opacity: 0.3;
+    }
+    40% {
+        opacity: 0.5;
+        box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #e33636,
+            0 0 0 10px rgba(255, 255, 255, 0.5);
+    }
+    100% {
+        box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #e33636,
+            0 0 0 10px rgba(255, 255, 255, 0.5);
+        -moz-transform: scale(1.5);
+        opacity: 0;
+    }
+}
+@keyframes sonarEffect7 {
+    0% {
+        opacity: 0.3;
+    }
+    40% {
+        opacity: 0.5;
+        box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #e33636,
+            0 0 0 10px rgba(255, 255, 255, 0.5);
+    }
+    100% {
+        box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #e33636,
+            0 0 0 10px rgba(255, 255, 255, 0.5);
+        transform: scale(1.5);
+        opacity: 0;
+    }
+}
+
+.myAccount-dashboard-block
+    .col-md-4:nth-child(8)
+    .myDashboard-box-block.Hov-icon:hover:after {
+    -webkit-animation: sonarEffect8 1.3s ease-out 75ms;
+    -moz-animation: sonarEffect8 1.3s ease-out 75ms;
+    animation: sonarEffect8 1.3s ease-out 75ms;
+}
+@-webkit-keyframes sonarEffect8 {
+    0% {
+        opacity: 0.3;
+    }
+    40% {
+        opacity: 0.5;
+        box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #b05ed3,
+            0 0 0 10px rgba(255, 255, 255, 0.5);
+    }
+    100% {
+        box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #b05ed3,
+            0 0 0 10px rgba(255, 255, 255, 0.5);
+        -webkit-transform: scale(1.5);
+        opacity: 0;
+    }
+}
+@-moz-keyframes sonarEffect8 {
+    0% {
+        opacity: 0.3;
+    }
+    40% {
+        opacity: 0.5;
+        box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #b05ed3,
+            0 0 0 10px rgba(255, 255, 255, 0.5);
+    }
+    100% {
+        box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #b05ed3,
+            0 0 0 10px rgba(255, 255, 255, 0.5);
+        -moz-transform: scale(1.5);
+        opacity: 0;
+    }
+}
+@keyframes sonarEffect8 {
+    0% {
+        opacity: 0.3;
+    }
+    40% {
+        opacity: 0.5;
+        box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #b05ed3,
+            0 0 0 10px rgba(255, 255, 255, 0.5);
+    }
+    100% {
+        box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #b05ed3,
+            0 0 0 10px rgba(255, 255, 255, 0.5);
+        transform: scale(1.5);
+        opacity: 0;
+    }
+}
+
+.myAccount-dashboard-block
+    .col-md-4:nth-child(9)
+    .myDashboard-box-block.Hov-icon:hover:after {
+    -webkit-animation: sonarEffect9 1.3s ease-out 75ms;
+    -moz-animation: sonarEffect9 1.3s ease-out 75ms;
+    animation: sonarEffect9 1.3s ease-out 75ms;
+}
+@-webkit-keyframes sonarEffect9 {
+    0% {
+        opacity: 0.3;
+    }
+    40% {
+        opacity: 0.5;
+        box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #45d0a7,
+            0 0 0 10px rgba(255, 255, 255, 0.5);
+    }
+    100% {
+        box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #45d0a7,
+            0 0 0 10px rgba(255, 255, 255, 0.5);
+        -webkit-transform: scale(1.5);
+        opacity: 0;
+    }
+}
+@-moz-keyframes sonarEffect9 {
+    0% {
+        opacity: 0.3;
+    }
+    40% {
+        opacity: 0.5;
+        box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #45d0a7,
+            0 0 0 10px rgba(255, 255, 255, 0.5);
+    }
+    100% {
+        box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #45d0a7,
+            0 0 0 10px rgba(255, 255, 255, 0.5);
+        -moz-transform: scale(1.5);
+        opacity: 0;
+    }
+}
+@keyframes sonarEffect9 {
+    0% {
+        opacity: 0.3;
+    }
+    40% {
+        opacity: 0.5;
+        box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #45d0a7,
+            0 0 0 10px rgba(255, 255, 255, 0.5);
+    }
+    100% {
+        box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #45d0a7,
+            0 0 0 10px rgba(255, 255, 255, 0.5);
+        transform: scale(1.5);
+        opacity: 0;
+    }
+}
+
+.myAccount-dashboard-block
+    .col-md-4:nth-child(10)
+    .myDashboard-box-block.Hov-icon:hover:after {
+    -webkit-animation: sonarEffect10 1.3s ease-out 75ms;
+    -moz-animation: sonarEffect10 1.3s ease-out 75ms;
+    animation: sonarEffect10 1.3s ease-out 75ms;
+}
+@-webkit-keyframes sonarEffect10 {
+    0% {
+        opacity: 0.3;
+    }
+    40% {
+        opacity: 0.5;
+        box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #2da5f5,
+            0 0 0 10px rgba(255, 255, 255, 0.5);
+    }
+    100% {
+        box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #2da5f5,
+            0 0 0 10px rgba(255, 255, 255, 0.5);
+        -webkit-transform: scale(1.5);
+        opacity: 0;
+    }
+}
+@-moz-keyframes sonarEffect10 {
+    0% {
+        opacity: 0.3;
+    }
+    40% {
+        opacity: 0.5;
+        box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #2da5f5,
+            0 0 0 10px rgba(255, 255, 255, 0.5);
+    }
+    100% {
+        box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #2da5f5,
+            0 0 0 10px rgba(255, 255, 255, 0.5);
+        -moz-transform: scale(1.5);
+        opacity: 0;
+    }
+}
+@keyframes sonarEffect10 {
+    0% {
+        opacity: 0.3;
+    }
+    40% {
+        opacity: 0.5;
+        box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #2da5f5,
+            0 0 0 10px rgba(255, 255, 255, 0.5);
+    }
+    100% {
+        box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #2da5f5,
+            0 0 0 10px rgba(255, 255, 255, 0.5);
+        transform: scale(1.5);
+        opacity: 0;
+    }
+}
+
+.myAccount-dashboard-block
+    .col-md-4:nth-child(11)
+    .myDashboard-box-block.Hov-icon:hover:after {
+    -webkit-animation: sonarEffect 1.3s ease-out 75ms;
+    -moz-animation: sonarEffect 1.3s ease-out 75ms;
+    animation: sonarEffect 1.3s ease-out 75ms;
+}
+@-webkit-keyframes sonarEffect {
+    0% {
+        opacity: 0.3;
+    }
+    40% {
+        opacity: 0.5;
+        box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #1fce99,
+            0 0 0 10px rgba(255, 255, 255, 0.5);
+    }
+    100% {
+        box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #1fce99,
+            0 0 0 10px rgba(255, 255, 255, 0.5);
+        -webkit-transform: scale(1.5);
+        opacity: 0;
+    }
+}
+@-moz-keyframes sonarEffect {
+    0% {
+        opacity: 0.3;
+    }
+    40% {
+        opacity: 0.5;
+        box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #1fce99,
+            0 0 0 10px rgba(255, 255, 255, 0.5);
+    }
+    100% {
+        box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #1fce99,
+            0 0 0 10px rgba(255, 255, 255, 0.5);
+        -moz-transform: scale(1.5);
+        opacity: 0;
+    }
+}
+@keyframes sonarEffect {
+    0% {
+        opacity: 0.3;
+    }
+    40% {
+        opacity: 0.5;
+        box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #1fce99,
+            0 0 0 10px rgba(255, 255, 255, 0.5);
+    }
+    100% {
+        box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #1fce99,
+            0 0 0 10px rgba(255, 255, 255, 0.5);
+        transform: scale(1.5);
+        opacity: 0;
+    }
+}
+
+.myAccount-dashboard-block
+    .col-md-4:nth-child(12)
+    .myDashboard-box-block.Hov-icon:hover:after {
+    -webkit-animation: sonarEffect3 1.3s ease-out 75ms;
+    -moz-animation: sonarEffect3 1.3s ease-out 75ms;
+    animation: sonarEffect3 1.3s ease-out 75ms;
+}
+@-webkit-keyframes sonarEffect3 {
+    0% {
+        opacity: 0.3;
+    }
+    40% {
+        opacity: 0.5;
+        box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #435b74,
+            0 0 0 10px rgba(255, 255, 255, 0.5);
+    }
+    100% {
+        box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #435b74,
+            0 0 0 10px rgba(255, 255, 255, 0.5);
+        -webkit-transform: scale(1.5);
+        opacity: 0;
+    }
+}
+@-moz-keyframes sonarEffect3 {
+    0% {
+        opacity: 0.3;
+    }
+    40% {
+        opacity: 0.5;
+        box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #435b74,
+            0 0 0 10px rgba(255, 255, 255, 0.5);
+    }
+    100% {
+        box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #435b74,
+            0 0 0 10px rgba(255, 255, 255, 0.5);
+        -moz-transform: scale(1.5);
+        opacity: 0;
+    }
+}
+@keyframes sonarEffect3 {
+    0% {
+        opacity: 0.3;
+    }
+    40% {
+        opacity: 0.5;
+        box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #435b74,
+            0 0 0 10px rgba(255, 255, 255, 0.5);
+    }
+    100% {
+        box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #435b74,
+            0 0 0 10px rgba(255, 255, 255, 0.5);
+        transform: scale(1.5);
+        opacity: 0;
+    }
+}
+
+.myAccount-dashboard-block {
+    margin-top: 0;
+}
+@media (max-width: 991px){
+    .myDashboard-box-block { height: 140px; width: 140px; margin: 0 auto 30px; }
+	.myDashboard-box-block .myDashboard-icon-block { width: 50px; height: 50px;}
+	.myDashboard-icon-block img { width: 100%;}
+	.myDashboard-box-block h2 {font-size: 11px;}
+}
+@media (max-width: 767px) {
+    .myAccount-dashboard-block {
+        margin: 15px auto 0;
+    }
+    .myDashboard-box-block h2 { font-size: 10px;}
+	.myDashboard-box-block { height: 130px; width:145px; margin: 0 auto 20px;}
+}
+@media (max-width: 549px){
+    .myDashboard-box-block {height: 125px;width: 125px;margin: 0 auto 20px;}
+}
+@media (max-width:479px){.Ser-icon-wrap ul li{width:48%;margin:5px 0}
+.myDashboard-box-block{width:128px;height:128px;padding:15px;margin:0 auto 15px}
+.myDashboard-box-block .myDashboard-icon-block{width:45px;height:45px;margin:0 auto 10px}
+.myDashboard-box-block .myDashboard-icon-block img{width:100%}
+.myDashboard-box-block h2{font-size:13px;line-height:normal}
+}
+
+.myDashboard-box-block.Hov-icon:after{pointer-events:none;position:absolute;width:100%;height:100%;border-radius:50%;content:'';-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box}
+.myDashboard-box-block.Hov-icon:before{speak:none;font-style:normal;font-weight:400;font-variant:normal;text-transform:none;display:block;-webkit-font-smoothing:antialiased}
+.myDashboard-box-block.Hov-icon{-webkit-transition:-webkit-transform ease-out .1s,background .2s;-moz-transition:-moz-transform ease-out .1s,background .2s;transition:transform ease-out .1s,background .2s}
+.myDashboard-box-block.Hov-icon:after{top:0;left:0;padding:0;z-index:-1;box-shadow:0 0 0 2px rgba(255,255,255,.1);opacity:0;-webkit-transform:scale(.9);-moz-transform:scale(.9);-ms-transform:scale(.9);transform:scale(.9)}
+.myDashboard-box-block.Hov-icon:hover{background:rgba(255,255,255,1);-webkit-transform:scale(.93);-moz-transform:scale(.93);-ms-transform:scale(.93);transform:scale(.93);color:#fff}
+.myAccount-dashboard-block .col-md-4:nth-child(1) .myDashboard-box-block.Hov-icon:hover:after{-webkit-animation:sonarEffect 1.3s ease-out 75ms;-moz-animation:sonarEffect 1.3s ease-out 75ms;animation:sonarEffect 1.3s ease-out 75ms}
+@-webkit-keyframes sonarEffect{0%{opacity:.3}
+40%{opacity:.5;box-shadow:0 0 0 2px rgba(255,255,255,.1),0 0 10px 10px #1fce99,0 0 0 10px rgba(255,255,255,.5)}
+100%{box-shadow:0 0 0 2px rgba(255,255,255,.1),0 0 10px 10px #1fce99,0 0 0 10px rgba(255,255,255,.5);-webkit-transform:scale(1.5);opacity:0}
+}
+@-moz-keyframes sonarEffect{0%{opacity:.3}
+40%{opacity:.5;box-shadow:0 0 0 2px rgba(255,255,255,.1),0 0 10px 10px #1fce99,0 0 0 10px rgba(255,255,255,.5)}
+100%{box-shadow:0 0 0 2px rgba(255,255,255,.1),0 0 10px 10px #1fce99,0 0 0 10px rgba(255,255,255,.5);-moz-transform:scale(1.5);opacity:0}
+}
+@keyframes sonarEffect{0%{opacity:.3}
+40%{opacity:.5;box-shadow:0 0 0 2px rgba(255,255,255,.1),0 0 10px 10px #1fce99,0 0 0 10px rgba(255,255,255,.5)}
+100%{box-shadow:0 0 0 2px rgba(255,255,255,.1),0 0 10px 10px #1fce99,0 0 0 10px rgba(255,255,255,.5);transform:scale(1.5);opacity:0}
+}
+.myAccount-dashboard-block .col-md-4:nth-child(2) .myDashboard-box-block.Hov-icon:hover:after{-webkit-animation:sonarEffect2 1.3s ease-out 75ms;-moz-animation:sonarEffect2 1.3s ease-out 75ms;animation:sonarEffect2 1.3s ease-out 75ms}
+@-webkit-keyframes sonarEffect2{0%{opacity:.3}
+40%{opacity:.5;box-shadow:0 0 0 2px rgba(255,255,255,.1),0 0 10px 10px #2ea5f5,0 0 0 10px rgba(255,255,255,.5)}
+100%{box-shadow:0 0 0 2px rgba(255,255,255,.1),0 0 10px 10px #2ea5f5,0 0 0 10px rgba(255,255,255,.5);-webkit-transform:scale(1.5);opacity:0}
+}
+@-moz-keyframes sonarEffect2{0%{opacity:.3}
+40%{opacity:.5;box-shadow:0 0 0 2px rgba(255,255,255,.1),0 0 10px 10px #2ea5f5,0 0 0 10px rgba(255,255,255,.5)}
+100%{box-shadow:0 0 0 2px rgba(255,255,255,.1),0 0 10px 10px #2ea5f5,0 0 0 10px rgba(255,255,255,.5);-moz-transform:scale(1.5);opacity:0}
+}
+@keyframes sonarEffect2{0%{opacity:.3}
+40%{opacity:.5;box-shadow:0 0 0 2px rgba(255,255,255,.1),0 0 10px 10px #2ea5f5,0 0 0 10px rgba(255,255,255,.5)}
+100%{box-shadow:0 0 0 2px rgba(255,255,255,.1),0 0 10px 10px #2ea5f5,0 0 0 10px rgba(255,255,255,.5);transform:scale(1.5);opacity:0}
+}
+.myAccount-dashboard-block .col-md-4:nth-child(3) .myDashboard-box-block.Hov-icon:hover:after{-webkit-animation:sonarEffect3 1.3s ease-out 75ms;-moz-animation:sonarEffect3 1.3s ease-out 75ms;animation:sonarEffect3 1.3s ease-out 75ms}
+@-webkit-keyframes sonarEffect3{0%{opacity:.3}
+40%{opacity:.5;box-shadow:0 0 0 2px rgba(255,255,255,.1),0 0 10px 10px #435b74,0 0 0 10px rgba(255,255,255,.5)}
+100%{box-shadow:0 0 0 2px rgba(255,255,255,.1),0 0 10px 10px #435b74,0 0 0 10px rgba(255,255,255,.5);-webkit-transform:scale(1.5);opacity:0}
+}
+@-moz-keyframes sonarEffect3{0%{opacity:.3}
+40%{opacity:.5;box-shadow:0 0 0 2px rgba(255,255,255,.1),0 0 10px 10px #435b74,0 0 0 10px rgba(255,255,255,.5)}
+100%{box-shadow:0 0 0 2px rgba(255,255,255,.1),0 0 10px 10px #435b74,0 0 0 10px rgba(255,255,255,.5);-moz-transform:scale(1.5);opacity:0}
+}
+@keyframes sonarEffect3{0%{opacity:.3}
+40%{opacity:.5;box-shadow:0 0 0 2px rgba(255,255,255,.1),0 0 10px 10px #435b74,0 0 0 10px rgba(255,255,255,.5)}
+100%{box-shadow:0 0 0 2px rgba(255,255,255,.1),0 0 10px 10px #435b74,0 0 0 10px rgba(255,255,255,.5);transform:scale(1.5);opacity:0}
+}
+.myAccount-dashboard-block .col-md-4:nth-child(4) .myDashboard-box-block.Hov-icon:hover:after{-webkit-animation:sonarEffect4 1.3s ease-out 75ms;-moz-animation:sonarEffect4 1.3s ease-out 75ms;animation:sonarEffect4 1.3s ease-out 75ms}
+@-webkit-keyframes sonarEffect4{0%{opacity:.3}
+40%{opacity:.5;box-shadow:0 0 0 2px rgba(255,255,255,.1),0 0 10px 10px #b05ed3,0 0 0 10px rgba(255,255,255,.5)}
+100%{box-shadow:0 0 0 2px rgba(255,255,255,.1),0 0 10px 10px #b05ed3,0 0 0 10px rgba(255,255,255,.5);-webkit-transform:scale(1.5);opacity:0}
+}
+@-moz-keyframes sonarEffect4{0%{opacity:.3}
+40%{opacity:.5;box-shadow:0 0 0 2px rgba(255,255,255,.1),0 0 10px 10px #b05ed3,0 0 0 10px rgba(255,255,255,.5)}
+100%{box-shadow:0 0 0 2px rgba(255,255,255,.1),0 0 10px 10px #b05ed3,0 0 0 10px rgba(255,255,255,.5);-moz-transform:scale(1.5);opacity:0}
+}
+@keyframes sonarEffect4{0%{opacity:.3}
+40%{opacity:.5;box-shadow:0 0 0 2px rgba(255,255,255,.1),0 0 10px 10px #b05ed3,0 0 0 10px rgba(255,255,255,.5)}
+100%{box-shadow:0 0 0 2px rgba(255,255,255,.1),0 0 10px 10px #b05ed3,0 0 0 10px rgba(255,255,255,.5);transform:scale(1.5);opacity:0}
+}
+.myAccount-dashboard-block .col-md-4:nth-child(5) .myDashboard-box-block.Hov-icon:hover:after{-webkit-animation:sonarEffect5 1.3s ease-out 75ms;-moz-animation:sonarEffect5 1.3s ease-out 75ms;animation:sonarEffect5 1.3s ease-out 75ms}
+@-webkit-keyframes sonarEffect5{0%{opacity:.3}
+40%{opacity:.5;box-shadow:0 0 0 2px rgba(255,255,255,.1),0 0 10px 10px #f1ca2a,0 0 0 10px rgba(255,255,255,.5)}
+100%{box-shadow:0 0 0 2px rgba(255,255,255,.1),0 0 10px 10px #f39c11,0 0 0 10px rgba(255,255,255,.5);-webkit-transform:scale(1.5);opacity:0}
+}
+@-moz-keyframes sonarEffect5{0%{opacity:.3}
+40%{opacity:.5;box-shadow:0 0 0 2px rgba(255,255,255,.1),0 0 10px 10px #f1ca2a,0 0 0 10px rgba(255,255,255,.5)}
+100%{box-shadow:0 0 0 2px rgba(255,255,255,.1),0 0 10px 10px #f39c11,0 0 0 10px rgba(255,255,255,.5);-moz-transform:scale(1.5);opacity:0}
+}
+@keyframes sonarEffect5{0%{opacity:.3}
+40%{opacity:.5;box-shadow:0 0 0 2px rgba(255,255,255,.1),0 0 10px 10px #f39c11,0 0 0 10px rgba(255,255,255,.5)}
+100%{box-shadow:0 0 0 2px rgba(255,255,255,.1),0 0 10px 10px #f39c11,0 0 0 10px rgba(255,255,255,.5);transform:scale(1.5);opacity:0}
+}
+.myAccount-dashboard-block .col-md-4:nth-child(6) .myDashboard-box-block.Hov-icon:hover:after{-webkit-animation:sonarEffect6 1.3s ease-out 75ms;-moz-animation:sonarEffect6 1.3s ease-out 75ms;animation:sonarEffect6 1.3s ease-out 75ms}
+@-webkit-keyframes sonarEffect6{0%{opacity:.3}
+40%{opacity:.5;box-shadow:0 0 0 2px rgba(255,255,255,.1),0 0 10px 10px #f39c11,0 0 0 10px rgba(255,255,255,.5)}
+100%{box-shadow:0 0 0 2px rgba(255,255,255,.1),0 0 10px 10px #f39c11,0 0 0 10px rgba(255,255,255,.5);-webkit-transform:scale(1.5);opacity:0}
+}
+@-moz-keyframes sonarEffect6{0%{opacity:.3}
+40%{opacity:.5;box-shadow:0 0 0 2px rgba(255,255,255,.1),0 0 10px 10px #f39c11,0 0 0 10px rgba(255,255,255,.5)}
+100%{box-shadow:0 0 0 2px rgba(255,255,255,.1),0 0 10px 10px #f39c11,0 0 0 10px rgba(255,255,255,.5);-moz-transform:scale(1.5);opacity:0}
+}
+@keyframes sonarEffect6{0%{opacity:.3}
+40%{opacity:.5;box-shadow:0 0 0 2px rgba(255,255,255,.1),0 0 10px 10px #f39c11,0 0 0 10px rgba(255,255,255,.5)}
+100%{box-shadow:0 0 0 2px rgba(255,255,255,.1),0 0 10px 10px #f39c11,0 0 0 10px rgba(255,255,255,.5);transform:scale(1.5);opacity:0}
+}
+
+.myAccount-dashboard-block .col-md-4:nth-child(7) .myDashboard-box-block.Hov-icon:hover:after{-webkit-animation:sonarEffect7 1.3s ease-out 75ms;-moz-animation:sonarEffect7 1.3s ease-out 75ms;animation:sonarEffect7 1.3s ease-out 75ms}
+@-webkit-keyframes sonarEffect7{0%{opacity:.3}
+40%{opacity:.5;box-shadow:0 0 0 2px rgba(255,255,255,.1),0 0 10px 10px #e33636,0 0 0 10px rgba(255,255,255,.5)}
+100%{box-shadow:0 0 0 2px rgba(255,255,255,.1),0 0 10px 10px #e33636,0 0 0 10px rgba(255,255,255,.5);-webkit-transform:scale(1.5);opacity:0}
+}
+@-moz-keyframes sonarEffect7{0%{opacity:.3}
+40%{opacity:.5;box-shadow:0 0 0 2px rgba(255,255,255,.1),0 0 10px 10px #e33636,0 0 0 10px rgba(255,255,255,.5)}
+100%{box-shadow:0 0 0 2px rgba(255,255,255,.1),0 0 10px 10px #e33636,0 0 0 10px rgba(255,255,255,.5);-moz-transform:scale(1.5);opacity:0}
+}
+@keyframes sonarEffect7{0%{opacity:.3}
+40%{opacity:.5;box-shadow:0 0 0 2px rgba(255,255,255,.1),0 0 10px 10px #e33636,0 0 0 10px rgba(255,255,255,.5)}
+100%{box-shadow:0 0 0 2px rgba(255,255,255,.1),0 0 10px 10px #e33636,0 0 0 10px rgba(255,255,255,.5);transform:scale(1.5);opacity:0}
+}
+
+.myAccount-dashboard-block .col-md-4:nth-child(8) .myDashboard-box-block.Hov-icon:hover:after{-webkit-animation:sonarEffect8 1.3s ease-out 75ms;-moz-animation:sonarEffect8 1.3s ease-out 75ms;animation:sonarEffect8 1.3s ease-out 75ms}
+@-webkit-keyframes sonarEffect8{0%{opacity:.3}
+40%{opacity:.5;box-shadow:0 0 0 2px rgba(255,255,255,.1),0 0 10px 10px #b05ed3,0 0 0 10px rgba(255,255,255,.5)}
+100%{box-shadow:0 0 0 2px rgba(255,255,255,.1),0 0 10px 10px #b05ed3,0 0 0 10px rgba(255,255,255,.5);-webkit-transform:scale(1.5);opacity:0}
+}
+@-moz-keyframes sonarEffect8{0%{opacity:.3}
+40%{opacity:.5;box-shadow:0 0 0 2px rgba(255,255,255,.1),0 0 10px 10px #b05ed3,0 0 0 10px rgba(255,255,255,.5)}
+100%{box-shadow:0 0 0 2px rgba(255,255,255,.1),0 0 10px 10px #b05ed3,0 0 0 10px rgba(255,255,255,.5);-moz-transform:scale(1.5);opacity:0}
+}
+@keyframes sonarEffect8{0%{opacity:.3}
+40%{opacity:.5;box-shadow:0 0 0 2px rgba(255,255,255,.1),0 0 10px 10px #b05ed3,0 0 0 10px rgba(255,255,255,.5)}
+100%{box-shadow:0 0 0 2px rgba(255,255,255,.1),0 0 10px 10px #b05ed3,0 0 0 10px rgba(255,255,255,.5);transform:scale(1.5);opacity:0}
+}
+
+.myAccount-dashboard-block .col-md-4:nth-child(9) .myDashboard-box-block.Hov-icon:hover:after{-webkit-animation:sonarEffect9 1.3s ease-out 75ms;-moz-animation:sonarEffect9 1.3s ease-out 75ms;animation:sonarEffect9 1.3s ease-out 75ms}
+@-webkit-keyframes sonarEffect9{0%{opacity:.3}
+40%{opacity:.5;box-shadow:0 0 0 2px rgba(255,255,255,.1),0 0 10px 10px #45d0a7,0 0 0 10px rgba(255,255,255,.5)}
+100%{box-shadow:0 0 0 2px rgba(255,255,255,.1),0 0 10px 10px #45d0a7,0 0 0 10px rgba(255,255,255,.5);-webkit-transform:scale(1.5);opacity:0}
+}
+@-moz-keyframes sonarEffect9{0%{opacity:.3}
+40%{opacity:.5;box-shadow:0 0 0 2px rgba(255,255,255,.1),0 0 10px 10px #45d0a7,0 0 0 10px rgba(255,255,255,.5)}
+100%{box-shadow:0 0 0 2px rgba(255,255,255,.1),0 0 10px 10px #45d0a7,0 0 0 10px rgba(255,255,255,.5);-moz-transform:scale(1.5);opacity:0}
+}
+@keyframes sonarEffect9{0%{opacity:.3}
+40%{opacity:.5;box-shadow:0 0 0 2px rgba(255,255,255,.1),0 0 10px 10px #45d0a7,0 0 0 10px rgba(255,255,255,.5)}
+100%{box-shadow:0 0 0 2px rgba(255,255,255,.1),0 0 10px 10px #45d0a7,0 0 0 10px rgba(255,255,255,.5);transform:scale(1.5);opacity:0}
+}
+
+.myAccount-dashboard-block .col-md-4:nth-child(10) .myDashboard-box-block.Hov-icon:hover:after{-webkit-animation:sonarEffect10 1.3s ease-out 75ms;-moz-animation:sonarEffect10 1.3s ease-out 75ms;animation:sonarEffect10 1.3s ease-out 75ms}
+@-webkit-keyframes sonarEffect10{0%{opacity:.3}
+40%{opacity:.5;box-shadow:0 0 0 2px rgba(255,255,255,.1),0 0 10px 10px #2da5f5,0 0 0 10px rgba(255,255,255,.5)}
+100%{box-shadow:0 0 0 2px rgba(255,255,255,.1),0 0 10px 10px #2da5f5,0 0 0 10px rgba(255,255,255,.5);-webkit-transform:scale(1.5);opacity:0}
+}
+@-moz-keyframes sonarEffect10{0%{opacity:.3}
+40%{opacity:.5;box-shadow:0 0 0 2px rgba(255,255,255,.1),0 0 10px 10px #2da5f5,0 0 0 10px rgba(255,255,255,.5)}
+100%{box-shadow:0 0 0 2px rgba(255,255,255,.1),0 0 10px 10px #2da5f5,0 0 0 10px rgba(255,255,255,.5);-moz-transform:scale(1.5);opacity:0}
+}
+@keyframes sonarEffect10{0%{opacity:.3}
+40%{opacity:.5;box-shadow:0 0 0 2px rgba(255,255,255,.1),0 0 10px 10px #2da5f5,0 0 0 10px rgba(255,255,255,.5)}
+100%{box-shadow:0 0 0 2px rgba(255,255,255,.1),0 0 10px 10px #2da5f5,0 0 0 10px rgba(255,255,255,.5);transform:scale(1.5);opacity:0}
+}
+
+.myAccount-dashboard-block .col-md-4:nth-child(11) .myDashboard-box-block.Hov-icon:hover:after{-webkit-animation:sonarEffect 1.3s ease-out 75ms;-moz-animation:sonarEffect 1.3s ease-out 75ms;animation:sonarEffect 1.3s ease-out 75ms}
+@-webkit-keyframes sonarEffect{0%{opacity:.3}
+40%{opacity:.5;box-shadow:0 0 0 2px rgba(255,255,255,.1),0 0 10px 10px #1fce99,0 0 0 10px rgba(255,255,255,.5)}
+100%{box-shadow:0 0 0 2px rgba(255,255,255,.1),0 0 10px 10px #1fce99,0 0 0 10px rgba(255,255,255,.5);-webkit-transform:scale(1.5);opacity:0}
+}
+@-moz-keyframes sonarEffect{0%{opacity:.3}
+40%{opacity:.5;box-shadow:0 0 0 2px rgba(255,255,255,.1),0 0 10px 10px #1fce99,0 0 0 10px rgba(255,255,255,.5)}
+100%{box-shadow:0 0 0 2px rgba(255,255,255,.1),0 0 10px 10px #1fce99,0 0 0 10px rgba(255,255,255,.5);-moz-transform:scale(1.5);opacity:0}
+}
+@keyframes sonarEffect{0%{opacity:.3}
+40%{opacity:.5;box-shadow:0 0 0 2px rgba(255,255,255,.1),0 0 10px 10px #1fce99,0 0 0 10px rgba(255,255,255,.5)}
+100%{box-shadow:0 0 0 2px rgba(255,255,255,.1),0 0 10px 10px #1fce99,0 0 0 10px rgba(255,255,255,.5);transform:scale(1.5);opacity:0}
+}
+
+.myAccount-dashboard-block .col-md-4:nth-child(12) .myDashboard-box-block.Hov-icon:hover:after{-webkit-animation:sonarEffect3 1.3s ease-out 75ms;-moz-animation:sonarEffect3 1.3s ease-out 75ms;animation:sonarEffect3 1.3s ease-out 75ms}
+@-webkit-keyframes sonarEffect3{0%{opacity:.3}
+40%{opacity:.5;box-shadow:0 0 0 2px rgba(255,255,255,.1),0 0 10px 10px #435b74,0 0 0 10px rgba(255,255,255,.5)}
+100%{box-shadow:0 0 0 2px rgba(255,255,255,.1),0 0 10px 10px #435b74,0 0 0 10px rgba(255,255,255,.5);-webkit-transform:scale(1.5);opacity:0}
+}
+@-moz-keyframes sonarEffect3{0%{opacity:.3}
+40%{opacity:.5;box-shadow:0 0 0 2px rgba(255,255,255,.1),0 0 10px 10px #435b74,0 0 0 10px rgba(255,255,255,.5)}
+100%{box-shadow:0 0 0 2px rgba(255,255,255,.1),0 0 10px 10px #435b74,0 0 0 10px rgba(255,255,255,.5);-moz-transform:scale(1.5);opacity:0}
+}
+@keyframes sonarEffect3{0%{opacity:.3}
+40%{opacity:.5;box-shadow:0 0 0 2px rgba(255,255,255,.1),0 0 10px 10px #435b74,0 0 0 10px rgba(255,255,255,.5)}
+100%{box-shadow:0 0 0 2px rgba(255,255,255,.1),0 0 10px 10px #435b74,0 0 0 10px rgba(255,255,255,.5);transform:scale(1.5);opacity:0}
+}
+
+.myDashboard-box-block{width:200px;height:200px;padding:20px;display:table;background:#fff;border-radius:100%;box-shadow:0 0 10px rgba(0,0,0,.02);margin:0 auto 50px}
+.myDashboard-box-block a{display:table-cell;vertical-align:middle;text-align:center}
+.myDashboard-box-block .myDashboard-icon-block{width:80px;height:80px;border:0 solid #00cf98;padding:0;margin:0 auto;display:table;text-align:center;border-radius:100%;background:#fff;color:#00cf98;-webkit-transition:all .2s linear;-moz-transition:all .2s linear;-o-transition:all .2s linear;transition:all .2s linear}
+.myDashboard-box-block .myDashboard-icon-block i{font-size:50px;vertical-align:middle;display:table-cell}
+.myDashboard-box-block h2{font-size:16px;font-weight:400;color:#354855;margin:0;padding:0}
+.myDashboard-box-block:hover .myDashboard-icon-block{background:0 0}

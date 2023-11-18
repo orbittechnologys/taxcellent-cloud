@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X7 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="2.44228in" height="2.59519in" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 461 489"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil7 {fill:none}
+    .fil6 {fill:#FEFEFE}
+    .fil1 {fill:#00BA88}
+    .fil5 {fill:#00BA88}
+    .fil4 {fill:#185E93}
+    .fil2 {fill:#8CFFE0}
+    .fil0 {fill:#8CFFE0}
+    .fil3 {fill:#B2FFEA}
+   ]]>
+  </style>
+    <clipPath id="id0">
+     <path d="M230 78c36,0 65,29 65,65 0,36 -29,65 -65,65 -35,0 -64,-29 -64,-65 0,-36 29,-65 64,-65z"/>
+    </clipPath>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_485065424">
+   <path class="fil0" d="M299 483l-52 0 -33 0 -53 0 0 -6 18 0c5,0 10,-4 10,-10l0 -59c28,0 55,0 82,0l0 59c0,6 5,10 11,10l17 0 0 6z"/>
+   <path class="fil1" d="M13 0l435 0c7,0 13,6 13,13l0 385c0,7 -6,12 -13,12l-435 0c-7,0 -13,-5 -13,-12l0 -385c0,-7 6,-13 13,-13z"/>
+   <path class="fil2" d="M54 34l353 0c6,0 10,5 10,11l0 277c0,5 -4,10 -10,10l-353 0c-6,0 -11,-5 -11,-10l0 -277c0,-6 5,-11 11,-11z"/>
+   <path class="fil3" d="M54 34l353 0c6,0 16,10 10,11 -365,82 -176,67 -363,287 -4,5 -11,-5 -11,-10l0 -277c0,-6 5,-11 11,-11z"/>
+   <circle class="fil4" cx="230" cy="372" r="17"/>
+   <path class="fil4" d="M131 478l199 0c3,0 6,2 6,5l0 0c0,4 -3,6 -6,6l-199 0c-4,0 -6,-2 -6,-6l0 0c0,-3 2,-5 6,-5z"/>
+   <path class="fil5" d="M230 78c36,0 65,29 65,65 0,36 -29,65 -65,65 -35,0 -64,-29 -64,-65 0,-36 29,-65 64,-65z"/>
+   <g style="clip-path:url(#id0)">
+    <g>
+     <path id="1" class="fil6" d="M224 143l13 0c25,0 46,21 46,47l0 64c0,25 -21,46 -46,46l-13 0c-26,0 -47,-21 -47,-46l0 -64c0,-26 21,-47 47,-47zm6 -50c14,0 25,11 25,25 0,14 -11,25 -25,25 -13,0 -25,-11 -25,-25 0,-14 12,-25 25,-25z"/>
+    </g>
+   </g>
+   <path class="fil7" d="M230 78c36,0 65,29 65,65 0,36 -29,65 -65,65 -35,0 -64,-29 -64,-65 0,-36 29,-65 64,-65z"/>
+   <rect class="fil6" x="117" y="259" width="226.465" height="24.7459"/>
+   <rect class="fil6" x="117" y="219" width="226.465" height="24.7459"/>
+  </g>
+ </g>
+</svg>

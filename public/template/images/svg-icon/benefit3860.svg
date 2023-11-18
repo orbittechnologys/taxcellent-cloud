@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X7 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="1.94009in" height="2.45118in" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 758 958"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil4 {fill:none}
+    .fil3 {fill:#00BA88}
+    .fil0 {fill:#185E93}
+    .fil2 {fill:#8CFFE0}
+    .fil1 {fill:#A8CDD3}
+   ]]>
+  </style>
+   <clipPath id="id0">
+    <path d="M217 52l35 -52 386 0 -28 52 -99 0 20 55 108 0 -31 48 -83 0c-3,80 -82,127 -184,130l221 235 -104 -4 -217 -220 -7 -55c113,8 197,-15 213,-86l-238 0 47 -48 185 0c-41,-67 -141,-58 -224,-55z"/>
+   </clipPath>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_287977680">
+   <path class="fil0" d="M625 715l7 -9c0,0 1,-1 1,-1 10,-14 20,-26 31,-40 3,-5 6,-9 8,-12l9 -10c14,-19 28,-36 42,-55 18,-23 43,-43 33,-63 -6,-12 -20,-13 -38,-11 -16,1 -23,11 -31,19l-100 99c-37,37 -18,30 -69,30 -16,0 -88,2 -97,-2 -10,-4 -19,-17 -15,-33 4,-14 16,-17 33,-17 33,0 66,0 98,0 18,-1 29,2 39,-9 8,-9 9,-32 2,-42 -10,-16 -62,-11 -88,-11 -35,1 -179,-2 -198,1 -32,4 -48,20 -63,36 -13,13 -95,92 -98,100 12,10 24,23 36,34 12,13 104,103 109,106 7,-5 22,-21 29,-28l43 -43c7,-7 9,-6 22,-5l172 0c59,0 57,3 83,-34z"/>
+   <path class="fil1" d="M81 678c-15,9 -58,56 -72,69 -20,19 -2,32 10,43l159 159c6,6 13,13 25,7 6,-3 62,-60 71,-70 19,-19 0,-29 -12,-41 -51,-51 -109,-108 -159,-159 -5,-6 -11,-14 -22,-8z"/>
+   <path class="fil0" d="M664 665l17 -22 -9 10c-2,3 -5,7 -8,12z"/>
+   <path class="fil0" d="M625 715l3 -3c0,0 1,-1 1,-1 4,-4 2,-2 4,-6 0,0 -1,1 -1,1l-7 9z"/>
+  </g>
+  <path id="Rupees_x0020_Symbole.cdr" class="fil2" d="M217 52l35 -52 386 0 -28 52 -99 0 20 55 108 0 -31 48 -83 0c-3,80 -82,127 -184,130l221 235 -104 -4 -217 -220 -7 -55c113,8 197,-15 213,-86l-238 0 47 -48 185 0c-41,-67 -141,-58 -224,-55z"/>
+  <g style="clip-path:url(#id0)">
+   <g id="_287978472">
+    <ellipse class="fil3" cx="415" cy="25" rx="341" ry="325"/>
+   </g>
+  </g>
+  <path class="fil4" d="M217 52l35 -52 386 0 -28 52 -99 0 20 55 108 0 -31 48 -83 0c-3,80 -82,127 -184,130l221 235 -104 -4 -217 -220 -7 -55c113,8 197,-15 213,-86l-238 0 47 -48 185 0c-41,-67 -141,-58 -224,-55z"/>
+ </g>
+</svg>
